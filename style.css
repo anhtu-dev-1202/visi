@@ -481,35 +481,6 @@ ul {
     position: relative;
 }
 
-#slides-home .text {
-    position: absolute;
-    color: #fff;
-    margin-left: calc((100% - 1170px) / 2);
-    z-index: 10;
-    top: 40px;
-}
-
-#slides-home div.name {
-    color: #fff;
-    font-size: 22px;
-    text-transform: uppercase;
-    padding-bottom: 10px;
-}
-
-#slides-home .text p.p1 {
-    font-size: 35px;
-    font-weight: bold;
-    width: 500px;
-    padding-bottom: 10px;
-    position: relative;
-}
-
-#slides-home .text p {
-    color: #fff;
-    font-size: 18px;
-    width: 700px;
-}
-
 .slider-thumbnail {
     width: 100%;
     float: left;
@@ -1779,7 +1750,8 @@ ul {
     float: left;
     box-shadow: 0 3px 5px #ddd;
     position: relative;
-    height: 50vh;
+    height: 80vh;
+    overflow: hidden;
 }
 .slider__slides {
     display: block;
@@ -1904,7 +1876,7 @@ ul {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 100vw;
+    width: 115vw;
     height: 100vh;
     margin-left: -50vw;
     margin-top: -50vh;
@@ -1921,23 +1893,46 @@ ul {
     background: rgba(0, 0, 0, 0.3);
 }
 .slide__content {
+    position: relative;
+}
+
+.slide__inner .text {
     position: absolute;
-    left: 5%;
-    top: 50%;
-    margin-left: -30px;
-    margin-top: 48px;
-    max-width: 480px;
     color: #fff;
+    margin-left: calc((100% - 1450px) / 2);
+    z-index: 10;
+    top: 150px;
 }
-.slide__heading {
-    margin-bottom: 20px;
-    font-size: 60px;
+
+.slide__inner div.name {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
 }
-.slide__text {
-    font-size: 25px;
+
+.slide__inner .text p.p1 {
+    font-size: 35px;
+    font-weight: bold;
+    width: 500px;
+    padding-bottom: 10px;
+    position: relative;
 }
-.slide__text a {
-    color: inherit;
+
+.slide__inner .text p {
+    color: #fff;
+    font-size: 18px;
+    width: 700px;
+}
+
+.anima {
+    animation-name: margin;
+    animation-duration: 3s;
+}
+
+@keyframes margin {
+    from {margin-left: calc((100% - 1900px) / 2);}
+    to {margin-left: calc((100% - 1450px) / 2);}
 }
 
 /*------------------------------------*\
