@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
+          integrity="sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div id="page">
+    <div class="preloader-1">
+        <div>Loading</div>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+        <span class="line line-4"></span>
+        <span class="line line-5"></span>
+        <span class="line line-6"></span>
+        <span class="line line-7"></span>
+        <span class="line line-8"></span>
+        <span class="line line-9"></span>
+    </div>
+</div>                                                            `
+<div id="header" class="default">
+    <div class="wrap">
+        <div class="logo">
+            <a href=""><img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="search-nav">
+            <div class="search-social default">
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="https://www.hoaphat.com.vn/en">
+                                <svg style="float: right" enable-background="new 0 0 512 512" width="28px" height="28px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><circle cx="256" cy="256" fill="#f0f0f0" r="256"/>
+                                    <g fill="#d80027"><path d="m244.87 256h267.13c0-23.106-3.08-45.49-8.819-66.783h-258.311z"/><path d="m244.87 122.435h229.556c-15.671-25.572-35.708-48.175-59.07-66.783h-170.486z"/><path d="m256 512c60.249 0 115.626-20.824 159.356-55.652h-318.712c43.73 34.828 99.107 55.652 159.356 55.652z"/><path d="m37.574 389.565h436.852c12.581-20.529 22.338-42.969 28.755-66.783h-494.362c6.417 23.814 16.174 46.254 28.755 66.783z"/></g><path d="m118.584 39.978h23.329l-21.7 15.765 8.289 25.509-21.699-15.765-21.699 15.765 7.16-22.037c-19.106 15.915-35.852 34.561-49.652 55.337h7.475l-13.813 10.035c-2.152 3.59-4.216 7.237-6.194 10.938l6.596 20.301-12.306-8.941c-3.059 6.481-5.857 13.108-8.372 19.873l7.267 22.368h26.822l-21.7 15.765 8.289 25.509-21.699-15.765-12.998 9.444c-1.301 10.458-1.979 21.11-1.979 31.921h256c0-141.384 0-158.052 0-256-50.572 0-97.715 14.67-137.416 39.978zm9.918 190.422-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822l-21.7 15.765zm-8.289-100.083 8.289 25.509-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822zm100.115 100.083-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822l-21.7 15.765zm-8.289-100.083 8.289 25.509-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822zm0-74.574 8.289 25.509-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822z" fill="#0052b4"/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-yt">
+                            <a target="_blank" href=""><img width="100%" src="svg/youtube.svg" alt=""></a>
+                        </li>
+                        <li class="icon-fb">
+                            <a target="_blank" href=""><img width="100%" src="svg/facebook.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form action="" id="search-header">
+                        <input type="text" name="keyword">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </form>
+                </div>
+            </div>
+            <div class="navigation default">
+                <ul>
+                    <li>
+                        <a href="/gioi-thieu">Giới thiệu</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/gioi-thieu#about-general">Giới thiệu chung</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#mission">Sứ mệnh tầm nhìn</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#history">Lịch sử hình thành</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#maps-about">Sơ đồ tổ chức</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#company-members">Công ty thành viên</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#news-home">Văn hóa doanh nghiệp</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/san-pham">Sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="" target="_blank">Thép xây dựng</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">Ống thép</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">Tôn mạ màu - mạ kẽm</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">Điện máy gia dụng</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">Chế tạo kim loại</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">Bất động sản</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">Nông nghiệp</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/chat-luong-hoa-phat">Chất lượng hòa phát</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/chat-luong-hoa-phat#scrool-certificate">Chứng chỉ chất lượng</a>
+                            </li>
+                            <li>
+                                <a href="/chat-luong-hoa-phat#scrool-technology">Công nghệ</a>
+                            </li>
+                            <li>
+                                <a href="/chat-luong-hoa-phat#scrool-prize">Giải thưởng</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/quan-he-co-dong/cong-bo-thong-tin">Quan hệ cổ đông</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/quan-he-co-dong/cong-bo-thong-tin">Công bố thông tin</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/bao-cao-tai-chinh">Báo cáo tài chính</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/bao-cao-thuong-nien">Báo cáo thường niên</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/dai-hoi-co-dong">Đại hội cổ đông</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/van-ban-phap-ly">Văn bản pháp lý</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/cao-bach">Văn bản cáo bạch</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/tro-giup-co-dong">Trợ giúp cổ đông</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="tintuc.html">Tin tức</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://www.hoaphat.com.vn/tin-tuc/tin-tuc-tap-doan">Tin tức tập đoàn</a>
+                            </li>
+                            <li>
+                                <a href="/tin-tuc/bao-chi-viet-ve-hoa-phat">Báo chí viết về Hòa Phát</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/tuyen-dung"> Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="/lien-he">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="header" class="header-fix default">
+    <div class="wrap">
+        <div class="logo">
+            <a href="/">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="search-nav">
+            <div class="navigation default">
+                <ul>
+                    <li>
+                        <a href="/gioi-thieu">Giới thiệu</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/gioi-thieu#about-general">Giới thiệu chung</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#mission">Sứ mệnh tầm nhìn</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#history">Lịch sử hình thành</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#maps-about">Sơ đồ tổ chức</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#company-members">Công ty thành viên</a>
+                            </li>
+                            <li>
+                                <a href="/gioi-thieu#news-home">Văn hóa doanh nghiệp</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/san-pham">Sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://thep.hoaphat.com.vn" target="_blank">Thép xây dựng</a>
+                            </li>
+                            <li>
+                                <a href="https://ongthep.hoaphat.com.vn/" target="_blank">Ống thép</a>
+                            </li>
+                            <li>
+                                <a href="https://ton.hoaphat.com.vn/" target="_blank">Tôn mạ màu - mạ kẽm</a>
+                            </li>
+                            <li>
+                                <a href="https://dienlanh.hoaphat.com.vn/" target="_blank">Điện máy gia dụng</a>
+                            </li>
+                            <li>
+                                <a href="http://thietbi.hoaphat.com.vn/" target="_blank">Chế tạo kim loại</a>
+                            </li>
+                            <li>
+                                <a href="http://mandaringarden2.vn/" target="_blank">Bất động sản</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">Nông nghiệp</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/chat-luong-hoa-phat">Chất lượng hòa phát</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/chat-luong-hoa-phat#scrool-certificate">Chứng chỉ chất lượng</a>
+                            </li>
+                            <li>
+                                <a href="/chat-luong-hoa-phat#scrool-technology">Công nghệ</a>
+                            </li>
+                            <li>
+                                <a href="/chat-luong-hoa-phat#scrool-prize">Giải thưởng</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/quan-he-co-dong/cong-bo-thong-tin">Quan hệ cổ đông</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/quan-he-co-dong/cong-bo-thong-tin">Công bố thông tin</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/bao-cao-tai-chinh">Báo cáo tài chính</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/bao-cao-thuong-nien">Báo cáo thường niên</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/dai-hoi-co-dong">Đại hội cổ đông</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/van-ban-phap-ly">Văn bản pháp lý</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/cao-bach">Văn bản cáo bạch</a>
+                            </li>
+                            <li>
+                                <a href="/quan-he-co-dong/tro-giup-co-dong">Trợ giúp cổ đông</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/tin-tuc/tin-tuc-tap-doan">Tin tức</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://www.hoaphat.com.vn/tin-tuc/tin-tuc-tap-doan">Tin tức tập đoàn</a>
+                            </li>
+                            <li>
+                                <a href="/tin-tuc/bao-chi-viet-ve-hoa-phat">Báo chí viết về Hòa Phát</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/tuyen-dung"> Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="/lien-he">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="header-mobile" class="default">
+    <div class="wrap">
+        <div class="menu-mobile">
+            <img src="images/mobile_btn_menu.png" alt="">
+        </div>
+        <div class="logo">
+            <a href=""><img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="search" id="icon-search">
+            <img src="images/mobile_btn_search.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="mb-search-box"1>
+    <div class="header_text">
+        <div class="fl"><em id="close-box-search"></em></div>
+        <div class="search_warp">
+            <div class="search">
+                <form id="form-search" method="GET" action="https://www.hoaphat.com.vn/tim-kiem">
+                    <em style="display: none">x</em>
+                    <input type="text" name="keyword" placeholder="Bạn cần tìm gì ?" autocomplete="off" value="">
+                    <i class="search_btn"><i></i></i>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu-container">
+    <div class="menu-logo">
+        <a href=""><img class="logo" src="images/logo.png" alt=""></a>
+        <a href="javascript:;" data-menu_toggle="toggle"><img class="close" src="images/header_close.png" alt=""></a>
+    </div>
+    <div class="menu-top">
+        <div class="menu-language">
+            <ul>
+                <li><a href="" class="active">vi</a></li>
+                <li><a href="">en</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu-content">
+        <ul>
+            <li class="has-child">
+                <a href="" title="">Giới thiệu</a>
+                <span>►</span>
+                <div class="menu-child">
+                    <div class="menu-child__item ">
+                        <a href="" title="">Giới thiệu chung</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Sứ mệnh tầm nhìn</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Lịch sử hình thành</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Sơ đồ tổ chức</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Công ty thành viên</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Văn hóa doanh nghiệp</a>
+                    </div>
+                </div>
+            </li>
+            <li class="has-child">
+                <a href="" title="">Sản phẩm</a>
+                <span>►</span>
+                <div class="menu-child">
+                    <div class="menu-child__item ">
+                        <a href="" title="" target="_blank">Thép xây dựng</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="" target="_blank">Ống thép</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="" target="_blank">Tôn mạ màu - mạ kẽm</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="" target="_blank">Điện máy gia dụng</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="" target="_blank">Chế tạo kim loại</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="" target="_blank">Bất động sản</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="" target="_blank">Nông nghiệp</a>
+                    </div>
+                </div>
+            </li>
+            <li class="has-child">
+                <a href="" title="">Chất lượng hòa phát</a>
+                <span>►</span>
+                <div class="menu-child">
+                    <div class="menu-child__item ">
+                        <a href="" title="">Chứng chỉ chất lượng</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Công nghệ</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Giải thưởng</a>
+                    </div>
+                </div>
+            </li>
+            <li class="has-child">
+                <a href="" title="">Quan hệ cổ đông</a>
+                <span>►</span>
+                <div class="menu-child">
+                    <div class="menu-child__item ">
+                        <a href="" title="">Công bố thông tin</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Báo cáo tài chính</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Báo cáo thường niên</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Đại hội cổ đông</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Văn bản pháp lý</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Văn bản cáo bạch</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Trợ giúp cổ đông</a>
+                    </div>
+                </div>
+            </li>
+            <li class="has-child">
+                <a href="" title="">Tin tức</a>
+                <span>►</span>
+                <div class="menu-child">
+                    <div class="menu-child__item ">
+                        <a href="" title="">Tin tức tập đoàn</a>
+                    </div>
+                    <div class="menu-child__item ">
+                        <a href="" title="">Báo chí viết về Hòa Phát</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="" title=""> Tuyển dụng</a>
+            </li>
+            <li>
+                <a href="" title="">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="banner-product" class="default">
+    <img src="https://sudospaces.com/hoaphat-com-vn/2020/12/san-pham.jpg" alt="">
+    <div class="wrap">
+        <h3>Tin Tức</h3>
+    </div>
+</div>
+<div id="footer" class="default">
+    <img class="background-left" src="images/background_footer_left.png" alt="">
+    <div class="wrap">
+        <div class="col col1">
+            <a href=""><i class="icon-hoaphat icon-logo-footer"></i></a>
+            <p><svg enable-background="new 0 0 512 512" fill="#ffffff" height="14" viewBox="0 0 512 512" width="23" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/>
+                </g>
+            </svg> KCN Phố Nối A, Xã Giai Phạm, Huyện Yên Mỹ, Tỉnh Hưng Yên, Việt Nam</p>
+            <ul>
+                <li><a target="_blank" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href="" title="Link mail nội bộ"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="col col2">
+            <p class="title">Văn Phòng Hà Nội</p>
+            <ul>
+                <li><svg enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/>
+                    </g>
+                </svg>66 Nguyễn Du, P. Nguyễn Du, Q. Hai Bà Trưng, Hà Nội</li>
+                <li><svg fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m30.035 22.6c-.082-.065-6.035-4.356-7.669-4.048-.78.138-1.226.67-2.121 1.735-.144.172-.49.584-.759.877a12.517 12.517 0 0 1 -1.651-.672 13.7 13.7 0 0 1 -6.321-6.321 12.458 12.458 0 0 1 -.672-1.651c.294-.27.706-.616.882-.764 1.06-.89 1.593-1.336 1.731-2.118.283-1.62-4.005-7.614-4.05-7.668a2.289 2.289 0 0 0 -1.705-.97c-1.738 0-6.7 6.437-6.7 7.521 0 .063.091 6.467 7.988 14.5 8.025 7.888 14.428 7.979 14.491 7.979 1.085 0 7.521-4.962 7.521-6.7a2.283 2.283 0 0 0 -.965-1.7z"/>
+                </svg>024 628 48 666</li>
+                <li>
+                    <svg id="Capa_1" enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path d="m471.647 176.983v-78.568l-98.811-98.415h-199.071v177.009l-40.353.004v-60.2h-133.059l-.353 395.187h512v-335.021zm-90-125.835 38.675 38.52h-38.675zm-177.882-21.104h147.882v89.668h90v57.273l-237.882.021zm-173.412 116.813h73.059v335.099h-73.059zm451.647 335.099h-348.588v-274.899l348.588-.032z"/><path d="m417 235.45h-218.588v99.133h218.588zm-30 69.09h-158.588v-39.045h158.588z"/><path d="m198.412 365.41h30v30.044h-30z"/><path d="m261.274 365.41h30v30.044h-30z"/><path d="m324.137 365.41h30v30.044h-30z"/><path d="m387 365.41h30v30.044h-30z"/><path d="m198.412 421.483h30v30.044h-30z"/><path d="m261.274 421.483h30v30.044h-30z"/><path d="m324.137 421.483h30v30.044h-30z"/><path d="m387 421.483h30v30.044h-30z"/>
+                        </g>
+                    </svg>024 628 33 456</li>
+            </ul>
+        </div>
+        <div class="col col2">
+            <p class="title">Văn Phòng Đà Nẵng</p>
+            <ul>
+                <li><svg enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/>
+                    </g>
+                </svg>171 Trường Chinh, P. An khê, Q. Thanh Khê, Đà Nẵng</li>
+                <li><svg fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m30.035 22.6c-.082-.065-6.035-4.356-7.669-4.048-.78.138-1.226.67-2.121 1.735-.144.172-.49.584-.759.877a12.517 12.517 0 0 1 -1.651-.672 13.7 13.7 0 0 1 -6.321-6.321 12.458 12.458 0 0 1 -.672-1.651c.294-.27.706-.616.882-.764 1.06-.89 1.593-1.336 1.731-2.118.283-1.62-4.005-7.614-4.05-7.668a2.289 2.289 0 0 0 -1.705-.97c-1.738 0-6.7 6.437-6.7 7.521 0 .063.091 6.467 7.988 14.5 8.025 7.888 14.428 7.979 14.491 7.979 1.085 0 7.521-4.962 7.521-6.7a2.283 2.283 0 0 0 -.965-1.7z"/>
+                </svg>023 637 21 232</li>
+                <li><svg id="Capa_1" enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m471.647 176.983v-78.568l-98.811-98.415h-199.071v177.009l-40.353.004v-60.2h-133.059l-.353 395.187h512v-335.021zm-90-125.835 38.675 38.52h-38.675zm-177.882-21.104h147.882v89.668h90v57.273l-237.882.021zm-173.412 116.813h73.059v335.099h-73.059zm451.647 335.099h-348.588v-274.899l348.588-.032z"/><path d="m417 235.45h-218.588v99.133h218.588zm-30 69.09h-158.588v-39.045h158.588z"/><path d="m198.412 365.41h30v30.044h-30z"/><path d="m261.274 365.41h30v30.044h-30z"/><path d="m324.137 365.41h30v30.044h-30z"/><path d="m387 365.41h30v30.044h-30z"/><path d="m198.412 421.483h30v30.044h-30z"/><path d="m261.274 421.483h30v30.044h-30z"/><path d="m324.137 421.483h30v30.044h-30z"/><path d="m387 421.483h30v30.044h-30z"/>
+                    </g>
+                </svg>024 628 33 456</li>
+            </ul>
+        </div>
+        <div class="col col2">
+            <p class="title">Văn Phòng TP HCM</p>
+            <ul>
+                <li><svg enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/>
+                    </g>
+                </svg>643 Điện Biên Phủ, P. 25, Q. Bình Thạnh, TP. Hồ Chí Minh</li>
+                <li><svg fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m30.035 22.6c-.082-.065-6.035-4.356-7.669-4.048-.78.138-1.226.67-2.121 1.735-.144.172-.49.584-.759.877a12.517 12.517 0 0 1 -1.651-.672 13.7 13.7 0 0 1 -6.321-6.321 12.458 12.458 0 0 1 -.672-1.651c.294-.27.706-.616.882-.764 1.06-.89 1.593-1.336 1.731-2.118.283-1.62-4.005-7.614-4.05-7.668a2.289 2.289 0 0 0 -1.705-.97c-1.738 0-6.7 6.437-6.7 7.521 0 .063.091 6.467 7.988 14.5 8.025 7.888 14.428 7.979 14.491 7.979 1.085 0 7.521-4.962 7.521-6.7a2.283 2.283 0 0 0 -.965-1.7z"/>
+                </svg>028 629 75 599</li>
+                <li><svg id="Capa_1" enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m471.647 176.983v-78.568l-98.811-98.415h-199.071v177.009l-40.353.004v-60.2h-133.059l-.353 395.187h512v-335.021zm-90-125.835 38.675 38.52h-38.675zm-177.882-21.104h147.882v89.668h90v57.273l-237.882.021zm-173.412 116.813h73.059v335.099h-73.059zm451.647 335.099h-348.588v-274.899l348.588-.032z"/><path d="m417 235.45h-218.588v99.133h218.588zm-30 69.09h-158.588v-39.045h158.588z"/><path d="m198.412 365.41h30v30.044h-30z"/><path d="m261.274 365.41h30v30.044h-30z"/><path d="m324.137 365.41h30v30.044h-30z"/><path d="m387 365.41h30v30.044h-30z"/><path d="m198.412 421.483h30v30.044h-30z"/><path d="m261.274 421.483h30v30.044h-30z"/><path d="m324.137 421.483h30v30.044h-30z"/><path d="m387 421.483h30v30.044h-30z"/>
+                    </g>
+                </svg>024 628 33 456</li>
+            </ul>
+        </div>
+        <div class="col col2">
+            <p class="title">Văn Phòng Singapore</p>
+            <ul>
+                <li><svg enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/>
+                    </g>
+                </svg>38-03 Singapore Land Tower, 50 Raffles Place, Singapore 048623</li>
+                <li><svg fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m30.035 22.6c-.082-.065-6.035-4.356-7.669-4.048-.78.138-1.226.67-2.121 1.735-.144.172-.49.584-.759.877a12.517 12.517 0 0 1 -1.651-.672 13.7 13.7 0 0 1 -6.321-6.321 12.458 12.458 0 0 1 -.672-1.651c.294-.27.706-.616.882-.764 1.06-.89 1.593-1.336 1.731-2.118.283-1.62-4.005-7.614-4.05-7.668a2.289 2.289 0 0 0 -1.705-.97c-1.738 0-6.7 6.437-6.7 7.521 0 .063.091 6.467 7.988 14.5 8.025 7.888 14.428 7.979 14.491 7.979 1.085 0 7.521-4.962 7.521-6.7a2.283 2.283 0 0 0 -.965-1.7z"/>
+                </svg>(65) 6610 8527</li>
+                <li><svg id="Capa_1" enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m471.647 176.983v-78.568l-98.811-98.415h-199.071v177.009l-40.353.004v-60.2h-133.059l-.353 395.187h512v-335.021zm-90-125.835 38.675 38.52h-38.675zm-177.882-21.104h147.882v89.668h90v57.273l-237.882.021zm-173.412 116.813h73.059v335.099h-73.059zm451.647 335.099h-348.588v-274.899l348.588-.032z"/><path d="m417 235.45h-218.588v99.133h218.588zm-30 69.09h-158.588v-39.045h158.588z"/><path d="m198.412 365.41h30v30.044h-30z"/><path d="m261.274 365.41h30v30.044h-30z"/><path d="m324.137 365.41h30v30.044h-30z"/><path d="m387 365.41h30v30.044h-30z"/><path d="m198.412 421.483h30v30.044h-30z"/><path d="m261.274 421.483h30v30.044h-30z"/><path d="m324.137 421.483h30v30.044h-30z"/><path d="m387 421.483h30v30.044h-30z"/>
+                    </g>
+                </svg>(65) 6612 3055</li>
+            </ul>
+        </div>
+
+    </div>
+    <img class="background-right" src="images/background_footer_right.png" alt="">
+</div>
+<div id="footer-bottom" class="default">
+    <div class="wrap">
+        <div class="left">
+            <p>Copyright © 2019 <span>Hoa Phat Group</span>. All rights reserved. Designed by Sudo</p>
+        </div>
+        <div class="right">
+            <a rel="nofollow" href="">Chính sách bảo mật</a>
+            <a rel="nofollow" href="#1">Điều khoản sử dụng</a>
+        </div>
+    </div>
+</div>
+
+<ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
+    <li class="mfb-component__wrap">
+        <a href="#" class="mfb-component__button--main" data-mfb-label="Quick Nav">
+            <img width="100%" src="https://youhomes.vn/templates/images/button-action/icon-yh-active.svg" alt="">
+            <i class="mfb-component__main-icon--resting ion-plus-round"></i>
+            <i class="mfb-component__main-icon--active ion-close-round"></i>
+        </a>
+        <ul class="mfb-component__list">
+            <li>
+                <a href="#" class="mfb-component__button--child">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="mfb-component__button--child">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="mfb-component__button--child">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+</body>
+</html>
+<script>
+    $(window).on('load', function() {
+        $('#page').fadeOut().remove();
+    });
+</script>
