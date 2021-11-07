@@ -665,13 +665,17 @@
         bottom: 20px;
     }
 
+    .slider {
+        height: 30vh;
+    }
+
     .slide__inner {
         width: 100vw;
         height: 30vh;
-        top: 85%;
+        top: 73%;
     }
 
-    .slide__inner .text {
+    .slide__inner .text, .slider__control {
         display: none;
     }
 }
