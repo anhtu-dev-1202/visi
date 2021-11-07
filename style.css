@@ -258,22 +258,17 @@ ul {
     text-align: right;
 }
 
-#header .icon-yt {
-    width: 28px;
-    height: 28px;
-    background-color: #ff0000;
+#header .icon-fb, #header .icon-yt {
+    width: 30px;
+    height: 30px;
     float: right;
     border-radius: 50%;
     margin-right: 5px;
 }
 
-#header .icon-fb {
-    width: 30px;
-    height: 30px;
-    background-color: #4267b2;
-    float: right;
-    border-radius: 50%;
-    margin-right: 5px;
+#header .icon-fb img, #header .icon-yt img{
+    width: 100%;
+    padding-top: 0;
 }
 
 #header .search {
@@ -1742,7 +1737,6 @@ ul {
 #banner {
     width: 100%;
     display: block;
-    position: relative;
 }
 
 .slider {
@@ -1882,6 +1876,7 @@ ul {
     margin-top: -50vh;
     background-size: 100% 100%;
     background-position: center center;
+    transition: 0.5s ease-in-out;
 }
 .slide__inner:before {
     content: "";
@@ -1892,10 +1887,20 @@ ul {
     height: 100%;
     background: rgba(0, 0, 0, 0.3);
 }
+.slide__inner:hover {
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+}
+.slide__inner:hover .text {
+    transition: 0.5s ease-in-out;
+    top: 200px;
+}
 .slide__content {
     position: relative;
 }
-
 .slide__inner .text {
     position: absolute;
     color: #fff;

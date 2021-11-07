@@ -15,6 +15,10 @@
     display: none;
 }
 
+#about-cty .right ul li i{
+    display: none;
+}
+
 .mb-search-box {
     position: fixed;
     overflow-y: auto;
@@ -221,10 +225,6 @@
     .rorate {
         transform: rotate(90deg);
         transition: .5s;
-    }
-
-    #slides-home .text {
-        display: none;
     }
 
     .slider-thumbnail {
@@ -663,5 +663,15 @@
 
     .mfb-component--br {
         bottom: 20px;
+    }
+
+    .slide__inner {
+        width: 100vw;
+        height: 30vh;
+        top: 85%;
+    }
+
+    .slide__inner .text {
+        display: none;
     }
 }
