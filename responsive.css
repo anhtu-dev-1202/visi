@@ -643,4 +643,24 @@
         right: 0;
         margin: auto;
     }
+
+    #footer-bottom .left {
+        width: 100%;
+    }
+
+     #footer-bottom .right {
+        display: none;
+    }
+
+    #footer-bottom p {
+        line-height: normal;
+        padding-left: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .mfb-component--br {
+        bottom: 20px;
+    }
 }
