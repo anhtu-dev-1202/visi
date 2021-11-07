@@ -1880,7 +1880,7 @@ ul {
     height: 100vh;
     margin-left: -50vw;
     margin-top: -50vh;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
 }
 .slide__inner:before {
