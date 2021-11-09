@@ -1625,6 +1625,10 @@
         }, 10000);
     });
 
+    $('.close').click(function () {
+        $('#myModal').fadeOut();
+    });
+
     $(document).ready(function () {
         $(window).scroll(function () {
             var aTop = $('.header-fix').height();
