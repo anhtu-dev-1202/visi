@@ -294,7 +294,7 @@ ul {
 }
 
 #header .social {
-    width: 120px;
+    width: 170px;
     float: right;
     padding-top: 3px;
 }
@@ -317,7 +317,7 @@ ul {
 }
 
 #header .search {
-    width: calc(100% - 120px);
+    width: calc(100% - 170px);
     float: right;
     text-align: right;
     position: relative;
