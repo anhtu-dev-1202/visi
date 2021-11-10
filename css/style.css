@@ -2176,3 +2176,57 @@ ul {
     text-decoration: none;
     cursor: pointer;
 }
+
+#partner {
+    margin: 30px 0;
+}
+
+#partner .intro-cat-home {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#partner .c10 {
+    clear: both;
+    height: 10px;
+}
+
+.pos-re {
+    position: relative;
+}
+
+.item-partner {
+    border: solid 1px #e1e1e1;
+}
+
+.img-hvr {
+    background-color: #fff;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.item-hvr img
+{
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.item-hvr:hover img
+{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity:1;
+}
+
+.img-hvr img
+{
+    display:block;
+    width:100%;
+}
