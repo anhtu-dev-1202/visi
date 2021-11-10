@@ -1520,11 +1520,11 @@
         $('#page').fadeOut().remove();
         setTimeout(function () {
             $('#myModal').slideToggle();
-        }, 10000);
+        }, 1000);
     });
 
-    $('.close-full').click(function () {
-        $('#myModal').slideToggle();
+    $('.close').click(function () {
+        $('#myModal').fadeOut();
         clearTimeout();
     });
 
