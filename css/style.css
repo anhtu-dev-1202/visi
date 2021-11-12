@@ -2230,3 +2230,35 @@ ul {
     display:block;
     width:100%;
 }
+
+#partner .owl-prev {
+    z-index: 2;
+    position: absolute;
+    top: 55%;
+    left: -5%;
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+    margin-top: -30px;
+    border-radius: 50%;
+    background: #0098d2;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
+
+#partner .owl-next {
+    z-index: 2;
+    position: absolute;
+    top: 55%;
+    right: -7%;
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+    margin-top: -30px;
+    border-radius: 50%;
+    background: #0098d2;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
