@@ -678,4 +678,21 @@
     .slide__inner .text, .slider__control {
         display: none;
     }
+
+    .giatri .sumenh, .we .we-header {
+        width: 100%;
+    }
+
+    .we {
+        margin-top: 55px;
+        margin-bottom: 25px;
+    }
+
+    .reason {
+        margin-top: 50px;
+    }
+
+    .flag {
+        display: none;
+    }
 }
