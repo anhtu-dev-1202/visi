@@ -1,0 +1,131 @@
+.top-contact {
+    background-color: #fff;
+}
+
+.page-name {
+    font-size: 26px;
+    font-weight: 800;
+    color: #58595b;
+}
+
+.line {
+    width: 45px;
+    height: 2px;
+    background-color: #a1a1a1;
+}
+
+.content-page-contact {
+    padding: 25px 0;
+}
+
+.add-footer1 {
+    padding-left: 20px;
+    color: #4d4d4f;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.phone-footer1 {
+    padding-left: 20px;
+    color: #4d4d4f;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.email-footer1 {
+    padding-left: 20px;
+    color: #4d4d4f;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.c30 {
+    clear: both;
+    height: 30px;
+}
+
+.hd-page-contact {
+    background-color: #002bab;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 15px;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.inner-frm {
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.mes-frm {
+    margin-bottom: 8px;
+    color: #F00;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*.waiting {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: #999;*/
+/*    opacity: 0.9;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    z-index: 999;*/
+/*    background-image: url(../images/loading.gif);*/
+/*    background-position: center center;*/
+/*    background-repeat: no-repeat;*/
+/*    display: none;*/
+/*}*/
+
+.inner-frm .form-control {
+    border: none;
+}
+
+.error {
+    border: solid 1px #d0ae45;
+}
+
+.btn-frm {
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    width: auto;
+    outline: none !important;
+    background-color: #00aeef;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+
+.msgbox {
+    margin-top: 5px;
+    color: #F00;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.hd-page-contact {
+    background-color: #014b9f;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 15px;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
